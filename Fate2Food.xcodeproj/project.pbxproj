@@ -13,6 +13,10 @@
 		5730D72A2398664E0024EFD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5730D7282398664E0024EFD7 /* Main.storyboard */; };
 		5730D72C239866510024EFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5730D72B239866510024EFD7 /* Assets.xcassets */; };
 		5730D72F239866510024EFD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5730D72D239866510024EFD7 /* LaunchScreen.storyboard */; };
+		5730D759239917400024EFD7 /* samosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 5730D758239917400024EFD7 /* samosa.png */; };
+		5730D75B239917450024EFD7 /* fish-and-chips.png in Resources */ = {isa = PBXBuildFile; fileRef = 5730D75A239917450024EFD7 /* fish-and-chips.png */; };
+		5730D75D2399174D0024EFD7 /* fried-chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 5730D75C2399174D0024EFD7 /* fried-chicken.png */; };
+		5730D75F239917540024EFD7 /* kebab.png in Resources */ = {isa = PBXBuildFile; fileRef = 5730D75E239917540024EFD7 /* kebab.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,18 @@
 		5730D72B239866510024EFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5730D72E239866510024EFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5730D730239866510024EFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5730D74C239904D60024EFD7 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = burger.png; path = ../../burger.png; sourceTree = "<group>"; };
+		5730D74E239904E10024EFD7 /* turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turkey.png; path = ../../turkey.png; sourceTree = "<group>"; };
+		5730D74F239904F10024EFD7 /* rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rice.png; sourceTree = "<group>"; };
+		5730D751239904F50024EFD7 /* pizza-slice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pizza-slice.png"; sourceTree = "<group>"; };
+		5730D752239904F70024EFD7 /* noodles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noodles.png; sourceTree = "<group>"; };
+		5730D753239904F90024EFD7 /* fries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fries.png; sourceTree = "<group>"; };
+		5730D754239904FB0024EFD7 /* fast-food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast-food.png"; sourceTree = "<group>"; };
+		5730D755239904FD0024EFD7 /* diet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diet.png; sourceTree = "<group>"; };
+		5730D758239917400024EFD7 /* samosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = samosa.png; path = ../../../Downloads/samosa.png; sourceTree = "<group>"; };
+		5730D75A239917450024EFD7 /* fish-and-chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fish-and-chips.png"; path = "../../../Downloads/fish-and-chips.png"; sourceTree = "<group>"; };
+		5730D75C2399174D0024EFD7 /* fried-chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fried-chicken.png"; path = "../../../Downloads/fried-chicken.png"; sourceTree = "<group>"; };
+		5730D75E239917540024EFD7 /* kebab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kebab.png; path = ../../../Downloads/kebab.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +77,19 @@
 				5730D7262398664E0024EFD7 /* ViewController.swift */,
 				5730D7282398664E0024EFD7 /* Main.storyboard */,
 				5730D72B239866510024EFD7 /* Assets.xcassets */,
+				5730D74C239904D60024EFD7 /* burger.png */,
 				5730D72D239866510024EFD7 /* LaunchScreen.storyboard */,
+				5730D74E239904E10024EFD7 /* turkey.png */,
+				5730D75A239917450024EFD7 /* fish-and-chips.png */,
+				5730D752239904F70024EFD7 /* noodles.png */,
+				5730D75C2399174D0024EFD7 /* fried-chicken.png */,
+				5730D758239917400024EFD7 /* samosa.png */,
+				5730D74F239904F10024EFD7 /* rice.png */,
+				5730D75E239917540024EFD7 /* kebab.png */,
+				5730D754239904FB0024EFD7 /* fast-food.png */,
+				5730D755239904FD0024EFD7 /* diet.png */,
+				5730D753239904F90024EFD7 /* fries.png */,
+				5730D751239904F50024EFD7 /* pizza-slice.png */,
 				5730D730239866510024EFD7 /* Info.plist */,
 			);
 			path = Fate2Food;
@@ -126,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5730D72F239866510024EFD7 /* LaunchScreen.storyboard in Resources */,
+				5730D759239917400024EFD7 /* samosa.png in Resources */,
+				5730D75F239917540024EFD7 /* kebab.png in Resources */,
+				5730D75D2399174D0024EFD7 /* fried-chicken.png in Resources */,
 				5730D72C239866510024EFD7 /* Assets.xcassets in Resources */,
+				5730D75B239917450024EFD7 /* fish-and-chips.png in Resources */,
 				5730D72A2398664E0024EFD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
