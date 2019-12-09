@@ -75,6 +75,10 @@
                                 <rect key="frame" x="135" y="765" width="107" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fried-potatoes" translatesAutoresizingMaskIntoConstraints="NO" id="ySI-9S-00g">
+                                <rect key="frame" x="333" y="659" width="107" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fried-potatoes" translatesAutoresizingMaskIntoConstraints="NO" id="ZBX-BU-VEF">
                                 <rect key="frame" x="145" y="775" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -96,11 +100,39 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fried-potatoes" translatesAutoresizingMaskIntoConstraints="NO" id="FP1-Ac-mLN">
-                                <rect key="frame" x="0.0" y="569" width="107" height="107"/>
+                                <rect key="frame" x="-16" y="602" width="107" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fried-potatoes" translatesAutoresizingMaskIntoConstraints="NO" id="ySI-9S-00g">
-                                <rect key="frame" x="333" y="659" width="107" height="107"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ice-cream" translatesAutoresizingMaskIntoConstraints="NO" id="zsV-t0-Roa">
+                                <rect key="frame" x="62" y="544" width="107" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="candy" translatesAutoresizingMaskIntoConstraints="NO" id="T55-dU-WuR">
+                                <rect key="frame" x="135" y="544" width="107" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="burger" translatesAutoresizingMaskIntoConstraints="NO" id="a6f-SJ-qLF">
+                                <rect key="frame" x="250" y="498" width="107" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cake (1)" translatesAutoresizingMaskIntoConstraints="NO" id="pTX-el-eEf">
+                                <rect key="frame" x="265" y="626" width="107" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milkshake (1)" translatesAutoresizingMaskIntoConstraints="NO" id="xhQ-9e-dtX">
+                                <rect key="frame" x="317" y="511" width="107" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fried-potatoes" translatesAutoresizingMaskIntoConstraints="NO" id="th2-lQ-NaA">
+                                <rect key="frame" x="317" y="765" width="107" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupcake" translatesAutoresizingMaskIntoConstraints="NO" id="o3w-Ik-XRS">
+                                <rect key="frame" x="30" y="728" width="107" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut" translatesAutoresizingMaskIntoConstraints="NO" id="ywg-6p-edk">
+                                <rect key="frame" x="-16" y="522" width="107" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -116,10 +148,16 @@
     <resources>
         <image name="Fate2Food_thumbnail" width="300" height="259"/>
         <image name="burger" width="512" height="512"/>
+        <image name="cake (1)" width="512" height="512"/>
+        <image name="candy" width="512" height="512"/>
+        <image name="cupcake" width="512" height="512"/>
+        <image name="donut" width="512" height="512"/>
         <image name="fish-and-chips (1)" width="512" height="512"/>
         <image name="fried-chicken (1)" width="512" height="512"/>
         <image name="fried-potatoes" width="512" height="512"/>
+        <image name="ice-cream" width="512" height="512"/>
         <image name="kebab (1)" width="512" height="512"/>
+        <image name="milkshake (1)" width="512" height="512"/>
         <image name="pad-thai" width="512" height="512"/>
         <image name="pizza-1" width="512" height="512"/>
         <image name="pizza-slice-1" width="512" height="512"/>

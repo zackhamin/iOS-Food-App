@@ -18,6 +18,57 @@ class ViewController: UIViewController {
     @IBOutlet weak var foodView: UIImageView!
     @IBOutlet weak var shakeLabel: UILabel!
     
+    @IBAction func chickenTouch(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "fried-chicken (1)")
+        shakeLabel.text = "Southern Fried Chicken"
+    }
+    
+    
+    @IBAction func thaiTouch(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "wonton-noodles")
+        shakeLabel.text = "Thai"
+    }
+    
+    @IBAction func burgerTouch(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "fried-potatoes")
+        shakeLabel.text = "Something with Chips!"
+    }
+    
+    @IBAction func burgerTouchMain(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "burger")
+        shakeLabel.text = "Burger"
+    }
+    
+    @IBAction func indianFood(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "samosa (1)")
+        shakeLabel.text = "Indian"
+    }
+    
+    
+    @IBAction func chineseFood(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "ramen")
+        shakeLabel.text = "Chinese"
+    }
+    
+    @IBAction func kebabFood(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "kebab (1)")
+        shakeLabel.text = "Kebab"
+    }
+    
+    @IBAction func fishChips(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "fish-and-chips (1)")
+        shakeLabel.text = "Fish and Chips"
+    }
+    
+ 
     override func becomeFirstResponder() -> Bool {
         return true
     }

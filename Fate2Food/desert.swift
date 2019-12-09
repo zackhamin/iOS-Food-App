@@ -10,9 +10,10 @@ import UIKit
 
 class Desert: UIViewController {
     
+    var takeAways = ["Waffles","Ice Cream","Cake","Slushies","Milk Shakes","Pastries","Sweets","Doughnuts","Cup Cakes"]
+    var desertPics = [#imageLiteral(resourceName: "waffle"), #imageLiteral(resourceName: "ice-cream") , #imageLiteral(resourceName: "cake-slice")  ,#imageLiteral(resourceName: "soft-drink") ,#imageLiteral(resourceName: "milkshake") ,#imageLiteral(resourceName: "pretzel"),#imageLiteral(resourceName: "candy"),#imageLiteral(resourceName: "donut"),#imageLiteral(resourceName: "cupcake")]
     
-    var takeAways = ["Waffles","Ice Cream","Cake","Slushies","Shakes","Pastries","Sweets","Doughnuts"]
-    var desertPics = [#imageLiteral(resourceName: "waffle"), #imageLiteral(resourceName: "ice-cream") , #imageLiteral(resourceName: "cake-slice")  ,#imageLiteral(resourceName: "soft-drink") ,#imageLiteral(resourceName: "milkshake") ,#imageLiteral(resourceName: "pretzel"),#imageLiteral(resourceName: "candy"),#imageLiteral(resourceName: "donut")]
+    
     var randomDesertIndex = 0
     
     @IBOutlet weak var desertLabel: UILabel!
@@ -20,7 +21,63 @@ class Desert: UIViewController {
     
     
     
+    @IBAction func sweetsButton(_ sender: UIButton) {
+        desertImage.image = #imageLiteral(resourceName: "candy")
+        desertLabel.text = "Sweets"
+    }
     
+    
+
+    @IBAction func doghnutTouch(_ sender: UIButton) {
+
+        desertImage.image = #imageLiteral(resourceName: "donut")
+        desertLabel.text = "Doughnuts"
+    }
+
+    @IBAction func iceCreamTouch(_ sender: UIButton) {
+
+        desertImage.image = #imageLiteral(resourceName: "ice-cream")
+        desertLabel.text = "Ice Cream"
+    }
+
+    @IBAction func cakeTouch(_ sender: UIButton) {
+
+        desertImage.image = #imageLiteral(resourceName: "cake (1)")
+        desertLabel.text = "Cake"
+    }
+
+
+    @IBAction func cupCakeTouch(_ sender: UIButton) {
+
+        desertImage.image = #imageLiteral(resourceName: "cupcake")
+        desertLabel.text = "Cup Cakes"
+    }
+
+    @IBAction func slushieTouch(_ sender: UIButton) {
+
+        desertImage.image = #imageLiteral(resourceName: "soft-drink")
+        desertLabel.text = "Slushie"
+    }
+
+
+    @IBAction func waffleTouch(_ sender: UIButton) {
+
+        desertImage.image = #imageLiteral(resourceName: "waffle")
+        desertLabel.text = "Waffles"
+    }
+
+
+    @IBAction func pastryTouch(_ sender: UIButton) {
+
+        desertImage.image = #imageLiteral(resourceName: "pretzel")
+        desertLabel.text = "Pastries"
+    }
+
+    @IBAction func milkShakeTouch(_ sender: UIButton) {
+
+        desertImage.image = #imageLiteral(resourceName: "milkshake (1)")
+        desertLabel.text = "Milk Shake"
+    }
     
     override func becomeFirstResponder() -> Bool {
         return true
