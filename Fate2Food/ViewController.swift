@@ -43,6 +43,12 @@ class ViewController: UIViewController {
         shakeLabel.text = "Burger"
     }
     
+    @IBAction func pizzaFood(_ sender: UIButton) {
+        
+        foodView.image = #imageLiteral(resourceName: "pizza-slice-1")
+        shakeLabel.text = "Pizza"
+    }
+    
     @IBAction func indianFood(_ sender: UIButton) {
         
         foodView.image = #imageLiteral(resourceName: "samosa (1)")
